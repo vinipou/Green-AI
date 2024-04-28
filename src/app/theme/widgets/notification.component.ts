@@ -9,7 +9,7 @@ import { MatMenuModule } from '@angular/material/menu';
   selector: 'app-notification',
   template: `
     <button mat-icon-button [matMenuTriggerFor]="menu">
-      <mat-icon matBadge="5" matBadgeColor="warn" aria-hidden="false">notifications</mat-icon>
+      <mat-icon matBadge="1" matBadgeColor="warn" aria-hidden="false">notifications</mat-icon>
     </button>
 
     <mat-menu #menu="matMenu">
